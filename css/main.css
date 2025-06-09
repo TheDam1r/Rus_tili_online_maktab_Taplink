@@ -101,7 +101,7 @@ body {
 }
 @media (max-width: 360px) {
   .taplink__link-wr .link {
-    padding: 10px 19px;
+    padding: 10px 18px;
   }
 }
 .taplink__link-wr .link__title {
