@@ -54,6 +54,7 @@ body {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 .taplink__text-wr .span-wr {
   width: 100%;
