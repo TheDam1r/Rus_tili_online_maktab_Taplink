@@ -49,12 +49,22 @@ body {
   line-height: 1.5;
   margin-bottom: 10px;
 }
+@media (max-width: 360px) {
+  .taplink__text-wr .taplink__title {
+    font-size: 29px;
+  }
+}
 .taplink__text-wr .taplink__desc {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.5;
   margin-bottom: 20px;
   text-transform: uppercase;
+}
+@media (max-width: 360px) {
+  .taplink__text-wr .taplink__desc {
+    font-size: 18px;
+  }
 }
 .taplink__text-wr .span-wr {
   width: 100%;
@@ -98,6 +108,11 @@ body {
 @media (max-width: 390px) {
   .taplink__link-wr .link__title {
     font-size: 17px;
+  }
+}
+@media (max-width: 360px) {
+  .taplink__link-wr .link__title {
+    font-size: 16px;
   }
 }
 .taplink__link-wr .link__desc {

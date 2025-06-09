@@ -57,14 +57,22 @@ body {
       font-size: 31px;
       line-height: 1.5;
       margin-bottom: 10px;
+
+      @include media(360px) {
+        font-size: 29px;
+      }
     }
 
     .taplink__desc {
       font-weight: 500;
-      font-size: 20px;
+      font-size: 19px;
       line-height: 1.5;
       margin-bottom: 20px;
       text-transform: uppercase;
+
+      @include media(360px) {
+        font-size: 18px;
+      }
     }
 
     .span-wr {
@@ -113,6 +121,10 @@ body {
 
         @include media(390px) {
           font-size: 17px;
+        }
+
+        @include media(360px) {
+          font-size: 16px;
         }
       }
 
