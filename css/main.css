@@ -112,7 +112,7 @@ body {
 }
 @media (max-width: 360px) {
   .taplink__link-wr .link__title {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 .taplink__link-wr .link__desc {
