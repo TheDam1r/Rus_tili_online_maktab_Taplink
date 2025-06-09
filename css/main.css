@@ -99,6 +99,11 @@ body {
   gap: 20px;
   transition: all 0.15s ease;
 }
+@media (max-width: 360px) {
+  .taplink__link-wr .link {
+    padding: 10px 22px;
+  }
+}
 .taplink__link-wr .link__title {
   font-weight: 400;
   font-size: 20px;
@@ -108,11 +113,6 @@ body {
 @media (max-width: 390px) {
   .taplink__link-wr .link__title {
     font-size: 17px;
-  }
-}
-@media (max-width: 360px) {
-  .taplink__link-wr .link__title {
-    font-size: 15px;
   }
 }
 .taplink__link-wr .link__desc {
